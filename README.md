@@ -1,2 +1,2 @@
 # LeetCode
-##Recording same problems when coding Leetcode.
+#### Recording same problems when coding Leetcode.
