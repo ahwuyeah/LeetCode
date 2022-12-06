@@ -1,6 +1,6 @@
 #include<stdlib.h>
 #include<stdio.h>
-#include <stdbool.h>
+#include<stdbool.h>
 bool isPalindrome(int x){
     if (x < 0) return false;
     int tmp = x;
@@ -21,9 +21,6 @@ bool isPalindrome(int x){
                 
             }
         }
-    // if(i==2){
-    //     result = arr[0] == arr[1] ? true : false;
-    // }
     printf("i = %d\n", i);
     return result;
 }
