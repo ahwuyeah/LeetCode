@@ -11,6 +11,7 @@ bool canVisitAllRooms(int** rooms, int roomsSize, int* roomsColSize){
         int ptr = roomArr[head++];
         for(int i = 0; i < roomsColSize[ptr]; i++){
             if(!ifVisit[rooms[ptr][i]]){
+            	//把rooms內容攤開，並記錄是否到訪過
                 roomArr[++tail] = rooms[ptr][i];
                 ifVisit[rooms[ptr][i]] = 1;
                 result++;
